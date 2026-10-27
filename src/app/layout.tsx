@@ -26,7 +26,16 @@ export const metadata: Metadata = {
       },
     ],
   },
-
+icons: {
+    icon: [
+      {
+        url: "/icon.png",
+        type: "image/png",
+        sizes: "512x512",
+      },
+    ],
+    apple: "/icon.png",
+  },
   twitter: {
     card: "summary_large_image",
     images: ["/images/preview-undangan.jpg"],
